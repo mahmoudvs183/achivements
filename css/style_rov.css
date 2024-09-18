@@ -7,9 +7,6 @@ body {
 :root {
     --dark-color: #19283f;
 }
-.sec{
-    height: 100vh;
-}
 
 /* start nav bar */
 .nav-section a,.nav-section ul,.nav-section li{
@@ -49,6 +46,11 @@ body {
     flex-direction: row;
     
 }
+@media only screen and (max-width:500px) {
+    .nav-section{
+        font-size: 30px;
+    }
+}
 /* End nav bar */
 
 /*start logo*/
@@ -65,12 +67,9 @@ body {
     background-color: rgba(0, 0, 0, .5);
     border-radius: 12px;  
 }
-/*
-@media (max-width:570) {
-    
-}
-*/
+
 /*End logo*/
+
 .abstract {
     background-color: rgba(10, 40, 70, .5);
     border-radius: 25px;
@@ -80,6 +79,11 @@ body {
 
 .text {
     font-size: 20px;
+}
+@media only screen and (max-width:500px) {
+    .text{
+        font-size: 30px;
+    }
 }
 
 .abstract h1 {
@@ -115,7 +119,7 @@ body {
     height: 450px;
     object-fit: cover;
     background-size: cover;
-    width: 100%;
+    width: 100%;  
 }
 
 @media screen and (min-width: 1000px) {
