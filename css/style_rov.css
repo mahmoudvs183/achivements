@@ -82,7 +82,13 @@ body {
 }
 
 .text {
-    font-size: 2.5vh;
+    font-size: 3vh;
+}
+
+@media (max-width:450px) {
+    .text {
+        font-size: 30px !important;
+    }
 }
 
 
@@ -100,9 +106,6 @@ body {
 }
 
 
-.abstract .text {
-    font-size: 2.5vh !important;
-}
 
 .abstract p {
     margin: 0;
