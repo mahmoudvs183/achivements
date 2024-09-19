@@ -20,7 +20,7 @@ body {
     width: 100%;
     border-bottom: 3px solid #5da4d0;
     background: linear-gradient(to right, rgba(0, 0, 0, .9), rgba(10, 40, 70, .7));
-    font-size: 20px;
+    font-size: 1.5rem;
     padding-top: 8px;
     padding-bottom: 8px;
     height: 8%;
@@ -46,11 +46,7 @@ body {
     flex-direction: row;
     
 }
-@media only screen and (max-width:500px) {
-    .nav-section{
-        font-size: 30px;
-    }
-}
+
 /* End nav bar */
 
 /*start logo*/
@@ -80,11 +76,7 @@ body {
 .text {
     font-size: 20px;
 }
-@media only screen and (max-width:500px) {
-    .text{
-        font-size: 30px;
-    }
-}
+
 
 .abstract h1 {
     color: #5da4d0;
@@ -98,7 +90,7 @@ body {
   padding-top: 10px;
 }
 .abstract .text{
-    font-size: 18px !important;
+    font-size: 1.2rem !important;
 }
 .abstract p{
     margin: 0;
