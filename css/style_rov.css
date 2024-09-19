@@ -9,6 +9,7 @@ body {
 }
 
 /* start nav bar */
+/* start nav bar */
 .nav-section a, .nav-section ul, .nav-section li {
     padding: 0;
     margin: 0;
@@ -46,35 +47,60 @@ body {
 }
 
 @media (max-width: 500px) {
+    body {
+        font-size: 18px;
+        /* تكبير حجم الخط الافتراضي */
+        line-height: 1.5;
+        /* تحسين المسافات بين الأسطر */
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 1.5em;
+        /* تعديل حجم العناوين */
+    }
+
+    p {
+        font-size: 1.1em;
+        /* تكبير حجم الفقرات */
+    }
+
     .nav-section {
-        font-size: 45px;
-        font-weight: 600px;
+        font-size: 24px;
+        /* زيادة حجم خط الروابط في القائمة */
+        font-weight: 600;
+        height: auto;
+        /* استخدم auto بدلاً من 13vh لتتكيف مع المحتوى */
     }
 
     .sublogo {
-        width: 35vw;
+        width: 50vw;
+        /* حجم أصغر للشعار على الموبايل */
+        height: auto;
+        margin-left: 0;
+        /* إزالة الهامش الأيسر على الموبايل */
+    }
 
+    .nav-links {
+        flex-direction: column;
+        /* تكديس الروابط بشكل عمودي في الموبايل */
+        gap: 15px;
+        /* تقليل المسافة بين الروابط */
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .nav-links a {
+        font-size: 20px;
+        /* تكبير حجم خط الروابط في القائمة */
     }
 
     .section1 {
-        height: 25vh;
-        width: 65vw;
+        height: auto;
+        /* جعل الارتفاع تلقائي لتناسب المحتوى */
+        width: 100%;
+        /* عرض كامل على الجوال */
     }
-
-
 }
-
-.nav-links {
-    display: flex;
-    gap: 70px;
-    justify-content: space-between;
-    flex-direction: row;
-
-}
-
-
-
-
 
 /* End nav bar */
 
@@ -87,7 +113,6 @@ body {
     align-items: center;
     background-size: cover;
     background-attachment: fixed;
-
 }
 
 .section1 {
