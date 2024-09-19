@@ -38,23 +38,22 @@ body {
 }
 
 .sublogo {
-    width: 110px;
+    width: 14vw;
     float: left;
     margin: 0px;
     margin-left: 31px;
-    height: 60px;
+    height: 10vh;
 }
 
 @media (max-width: 500px) {
     .nav-section {
-        font-size: 30px;
+        font-size: 45px;
         font-weight: 600px;
     }
 
     .sublogo {
         width: 35vw;
         height: 10vh;
-
     }
 
     .section1 {
@@ -94,9 +93,6 @@ body {
 .section1 {
     background-color: rgba(0, 0, 0, .5);
     border-radius: 12px;
-
-    height: 30vh;
-    width: 50vw;
 }
 
 .section1 img {
