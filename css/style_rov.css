@@ -2,13 +2,13 @@ body {
     padding: 0;
     margin: 0;
     height: 1000px;
+    font-size: 2vh;
 }
 
 :root {
     --dark-color: #19283f;
 }
 
-/* start nav bar */
 /* start nav bar */
 .nav-section a, .nav-section ul, .nav-section li {
     padding: 0;
@@ -22,10 +22,10 @@ body {
     width: 100%;
     border-bottom: 3px solid #5da4d0;
     background: linear-gradient(to right, rgba(0, 0, 0, .9), rgba(10, 40, 70, .7));
-    font-size: 22px;
+    font-size: 2.5vh;
     padding-top: 8px;
     padding-bottom: 8px;
-    height: 13vh;
+    height: 12vh;
 }
 
 .nav-container {
@@ -39,74 +39,26 @@ body {
 }
 
 .sublogo {
-    width: 14vw;
+    width: auto;
     float: left;
     margin: 0px;
     margin-left: 31px;
     height: 10vh;
 }
 
-@media (max-width: 500px) {
-    body {
-        font-size: 18px;
-        /* تكبير حجم الخط الافتراضي */
-        line-height: 1.5;
-        /* تحسين المسافات بين الأسطر */
-    }
+.nav-links {
+    display: flex;
+    gap: 10vw;
+    justify-content: space-between;
+    flex-direction: row;
 
-    h1, h2, h3, h4, h5, h6 {
-        font-size: 1.5em;
-        /* تعديل حجم العناوين */
-    }
-
-    p {
-        font-size: 1.1em;
-        /* تكبير حجم الفقرات */
-    }
-
-    .nav-section {
-        font-size: 24px;
-        /* زيادة حجم خط الروابط في القائمة */
-        font-weight: 600;
-        height: auto;
-        /* استخدم auto بدلاً من 13vh لتتكيف مع المحتوى */
-    }
-
-    .sublogo {
-        width: 50vw;
-        /* حجم أصغر للشعار على الموبايل */
-        height: auto;
-        margin-left: 0;
-        /* إزالة الهامش الأيسر على الموبايل */
-    }
-
-    .nav-links {
-        flex-direction: column;
-        /* تكديس الروابط بشكل عمودي في الموبايل */
-        gap: 15px;
-        /* تقليل المسافة بين الروابط */
-        align-items: flex-start;
-        width: 100%;
-    }
-
-    .nav-links a {
-        font-size: 20px;
-        /* تكبير حجم خط الروابط في القائمة */
-    }
-
-    .section1 {
-        height: auto;
-        /* جعل الارتفاع تلقائي لتناسب المحتوى */
-        width: 100%;
-        /* عرض كامل على الجوال */
-    }
 }
 
 /* End nav bar */
 
 /*start logo*/
 .logo {
-    height: calc(100vh - 13vh);
+    height: calc(100vh - 8%);
     background: url(../images/background.jpg);
     display: flex;
     justify-content: center;
@@ -120,11 +72,6 @@ body {
     border-radius: 12px;
 }
 
-.section1 img {
-    width: 100%;
-    height: 100%;
-}
-
 /*End logo*/
 
 .abstract {
@@ -135,7 +82,7 @@ body {
 }
 
 .text {
-    font-size: 20px;
+    font-size: 2.5vh;
 }
 
 
@@ -153,7 +100,7 @@ body {
 }
 
 .abstract .text {
-    font-size: 1.2rem !important;
+    font-size: 2.5vh !important;
 }
 
 .abstract p {
@@ -207,7 +154,7 @@ body {
 .footer p {
     margin: 0;
     color: #ffc400;
-    font-size: 20px;
+    font-size: 1.5vh;
 }
 
 .footer .social {
